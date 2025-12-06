@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.svg {
+    filter: invert();
+}
+
+#logo {
+    margin: 0px 15px;
+    width: 30px;
+}
+
+.searchBar {
+    background-color: #1f1f1f;
+    width: 470px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchBar input {
+    border: none;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+    background-color: inherit;
+}
+
+.searchBar img {
+    margin-left: 10px;
+    width: 25px;
+}
+
+nav {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 4.5vh;
+}
+
+.navCenter {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 510px;
+}
+
+.navRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.left {
+    background-color: #121212;
+    border-radius: 10px;
+    width: 22vw;
+    height: 91vh;
+    margin: 0px 4px 0px 8px;
+    padding: 8px;
+}
+
+.right {
+    width: 78vw;
+    margin: 0px 4px;
+    background-color: #121212;
+    border-radius: 10px;
+    max-height: 92.75vh;
+    overflow-y: scroll;
+    /* padding: 24px 40px; */
+}
+
+.main {
+    display: flex;
+}
+
+.left>h4 {
+    font-weight: 700;
+    margin: 15px;
+    margin-bottom: 45px;
+}
+
+.box {
+    background-color: #1f1f1f;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.box p {
+    font-size: 14px;
+}
+
+.box button {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 7px 15px;
+    border-radius: 60px;
+    margin-top: 5px;
+}
+
+.leftBottom {
+    margin-top: 35vh;
+}
+
+.lang {
+    padding: 30px 0px 30px 15px;
+}
+
+.lang button {
+    display: flex;
+    background-color: #121212;
+    color: white;
+    padding: 7px 12px;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid #818181;
+}
+
+.links {
+    padding: 15px;
+    padding-right: 40px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+}
+
+#cookies {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.navRight .utilBtn {
+    background-color: black;
+    color: rgb(179, 179, 179);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+#divider {
+    font-size: 30px;
+    font-weight: 100;
+    padding: 0 10px;
+}
+
+.navRight a {
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin: 20px;
+}
+
+.signupBtn {
+    background-color: black;
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+.logBtn {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 13px 10px;
+    width: 105px;
+    margin-left: 10px;
+}
+
+.cardContainer {
+    margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+    height: 290px;
+    overflow-x: hidden;
+}
+
+.trendingSongs {
+    margin: 24px 0px 24px 40px;
+}
+
+.card{
+    width: 165px;
+    max-height: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.card h4, .profileCard h4 {
+    font-size: 16px;
+    font-weight: 400;
+    width: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card p, .profileCard p{
+    font-size: 14px;
+    font-weight: 400;
+    width: inherit;
+    color: rgb(179, 179, 179);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card:hover, .profileCard:hover {
+    background-color: #1f1f1f;
+    border-radius: 7px;
+}
+
+.play {
+    position: absolute;
+    width: 60px !important;
+    right: 20px;
+    top: 120px;
+    opacity: 0;
+}
+
+.popularArtists {
+    margin: 40px 0px 24px 40px;
+}
+
+.popularAlbums {
+    margin: 40px 0px 24px 40px;
+}
+
+.popularRadio {
+    margin: 40px 0px 24px 40px;
+}
+
+.featuredCharts {
+    margin: 40px 0px 24px 40px;
+}
+
+.profileCard img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.profileCard {
+    width: 165px;
+    max-height: 240px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.info {
+    display: flex;
+    border: 2px solid red;
+    max-width: 60vw;
+    gap: 200px;
+
+}
+
+footer {
+    margin: 40px 0px 24px 40px;
+}

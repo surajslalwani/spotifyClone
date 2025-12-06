@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="svg" id="logo" src="logo.svg" alt="">
+        <div class="navCenter">
+            <button style="border: none; border-radius: 50%; background-color: #1f1f1f;">
+                <img style="padding: 10px;" src="home-icon.svg" class="svg" width="25px" height="25px" alt="">
+            </button>
+            <div class="searchBar">
+                <img src="search-icon.svg" class="svg" alt="">
+                <input placeholder="What do you want to play?" type="search">
+            </div>
+        </div>
+        <div class="navRight">
+            <button class="utilBtn">Premium</button>
+            <button class="utilBtn">Support</button>
+            <button class="utilBtn">Download</button>
+            <p id="divider">|</p>
+            <a href="https://spotify.com">
+                <img src="download-icon.svg" class="svg" width="15px" alt="">
+                <div>Install App</div>
+            </a>
+            <button class="signupBtn">Sign up</button>
+            <button class="logBtn">Log in</button>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="left">
+            <h4>Your Library</h4>
+            <div class="box">
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <button>Create playlist</button>
+            </div>
+            <div class="box">
+                <h4>Let's find some podcasts to follow</h4>
+                <p>We'll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+            </div>
+
+            <div class="leftBottom">
+                <div class="links">
+                    <div><a href="https://open.spotify.com">Legal</a></div>
+                    <div><a href="https://open.spotify.com">Safety & Privacy Center</a></div>
+                    <div><a href="https://open.spotify.com">Privaacy Policy</a></div>
+                    <div><a href="https://open.spotify.com">Cookies</a></div>
+                    <div><a href="https://open.spotify.com">About Ads</a></div>
+                    <div><a href="https://open.spotify.com">Accessibility</a></div>
+                </div>
+                <div><a id="cookies" href="https://open.spotify.com">Cookies</a></div>
+                <div class="lang">
+                    <button>
+                        <img width="15px" class="svg" src="lang-icon.svg" alt="lang">
+                        <div>English</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="right">
+            <div class="trendingSongs">
+                <h2>Trending songs</h2>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="popularArtists">
+                <h2>Popular artists</h2>
+                <div class="cardContainer">
+                    <div class="profileCard">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="profileCard">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="profileCard">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="profileCard">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="profileCard">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="profileCard">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="profileCard">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="profileCard">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="popularAlbums">
+                <h2>Popular albums and singles</h2>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="popularRadio">
+                <h2>Popular Radio</h2>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="featuredCharts">
+                <h2>Featured Charts</h2>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e029411c63637b6d976a7d0e279" alt="">
+                        <h4>Pahile Pahil Chhathi Maiya</h4>
+                        <p>Sharda Sinha</p>
+                        <img class="play" src="play.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <footer>
+                <div class="footerInfo">
+                    <div class="info">
+                        <div class="company">
+                            <h4>Company</h4>
+                            <h5>About</h5>
+                            <h5>Jobs</h5>
+                            <h5>For the Record</h5>
+                        </div>
+                        <div class="communities">
+                            <h4>Communities</h4>
+                            <h5>For Artists</h5>
+                            <h5>Developers</h5>
+                            <h5>Advertising</h5>
+                            <h5>Investors</h5>
+                            <h5>Vendors</h5>
+                        </div>
+                        <div class="usefulLinks">
+                            <h4>Useful links</h4>
+                            <h5>Support</h5>
+                            <h5>Free Mobile App</h5>
+                            <h5>Popular by Country</h5>
+                            <h5>Import your music</h5>
+                        </div>
+                        <div class="spotifyPlans">
+                            <h4>Spotify Plans</h4>
+                            <h5>Premium Individual</h5>
+                            <h5>Premium Duo</h5>
+                            <h5>Premium Family</h5>
+                            <h5>Premium Student</h5>
+                            <h5>Spotify Free</h5>
+                        </div>
+                    </div>
+                    <div class="social"></div>
+                </div>
+                <div class="copyRight"></div>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
